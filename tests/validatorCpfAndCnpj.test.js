@@ -4,7 +4,7 @@ const {
   getFakeCpfInvalid,
   getFakeCnpjValid,
   getFakeCnpjInvalid,
-} = require("./utils/dataFakes");
+} = require("./utils/fakesData");
 
 describe("CPF/CNPJ Validator", () => {
   test("Testing valid CPF", () => {
